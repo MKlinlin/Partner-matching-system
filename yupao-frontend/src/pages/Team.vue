@@ -1,8 +1,10 @@
 <template>
 队伍
 </template>
-<script>
-
+<script >
+export default {
+    name:"Team.vue"
+}
 </script>
 <style>
 

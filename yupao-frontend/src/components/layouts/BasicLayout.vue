@@ -28,7 +28,8 @@ import { ref } from 'vue';
 import { showToast } from 'vant';
 const onClickLeft = () => alert('left');
 const onClickRight = () => alert('right');
-
+import Index from "@/pages/Index.vue";
+import Team from "@/pages/Team.vue";
 const active = ref("index");
 const onChange = (index) => showToast(`标签 ${index}`);
 </script>
